@@ -1,52 +1,50 @@
 # Boilerplate Sass
 
+This project uses [Sass](https://sass-guidelin.es/), a CSS preprocessor that allows the use of variables, nesting, mixins, inheritance, and other interesting features that make writing CSS more powerful and flexible.
 
-Este projeto utiliza [Sass](https://sass-guidelin.es/), um pré-processador CSS que permite o uso de variáveis, aninhamento, mixins, herança e outras características interessantes que tornam a escrita CSS mais poderosa e flexível.
+The project follows the 7-1 architecture of Sass, which is a structure to organize Sass files into seven folders and one main file. This structure helps keep the code organized and makes project maintenance easier.
 
-O projeto segue a arquitetura 7-1 do Sass, que é uma estrutura para organizar os arquivos Sass em sete pastas e um arquivo principal. Esta estrutura ajuda a manter o código organizado e facilita a manutenção do projeto.
+After installation, you will have the option to view various components in your browser and see how the architecture is used in a frontend application with ReactJS and NextJS.
 
-Após a instalação, você terá a opção de visualizar vários componentes em seu navegador e a forma de utilização da arquitetura em uma aplicação frontend com ReactJS e NextJS.
+## Project Objective
 
-## Objetivo do Projeto
-
-Disponibiliza uma opção de arquitetura com Sass e aplicação prática no NextJS, para desenvolvedores da comunidade. Veja a [Demo](https://sass-boilerplate.vercel.app/).
+Provides an architecture option with Sass and practical application in NextJS for community developers. See the [Demo](https://boilerplate-next-sass.vercel.app/).
 
 ## Features
-- Arquitetura do [NextJS](https://nextjs.org/) estabelecida
-- Arquitetura 7-1 [Sass](https://sass-guidelin.es/) estabelecida
-- Exemplos de componentes
-- Exemplos de estilização global de tags e componentes com Sass
-- Configuração do [Eslint](https://eslint.org/)
-- Configuração do [Prettier](https://prettier.io/)
-- Configuração do [Jest](https://jestjs.io/pt-BR/) e Coverage
-- Configuração do [Husky](https://typicode.github.io/husky/)
-- Configuração do [Commitlint](https://commitlint.js.org/#/)
-- Pipeline pre-commit com Prettier e Eslint
-- Pipeline commit-msg com Commitlint
-- Pipeline pre-push com build e testes unitários
-- CI/CD com workflow no [Github Actions](https://github.com/features/actions) com check linter, check prettier e testes unitários
-- Versionamento automatizado [semantic-release](https://semantic-release.gitbook.io/) - a desenvolver
+- Established [NextJS](https://nextjs.org/) architecture
+- Established 7-1 [Sass](https://sass-guidelin.es/) architecture
+- Component examples
+- Examples of global styling of tags and components with Sass
+- [Eslint](https://eslint.org/) configuration
+- [Prettier](https://prettier.io/) configuration
+- [Jest](https://jestjs.io/) and Coverage configuration
+- [Husky](https://typicode.github.io/husky/) configuration
+- [Commitlint](https://commitlint.js.org/#/) configuration
+- Pre-commit pipeline with Prettier and Eslint
+- Commit-msg pipeline with Commitlint
+- Pre-push pipeline with build and unit tests
+- CI/CD with workflow on [Github Actions](https://github.com/features/actions) with linter check, prettier check, and unit tests
+- Automated versioning [semantic-release](https://semantic-release.gitbook.io/) - to be developed
 
-## Pré-requisitos
+## Prerequisites
 
 -   Node.js
 -   npm
 -   Docker
 
+## Installation
 
-## Instalação
-
-Clone o repositório para a sua máquina local e instale as dependências:
+Clone the repository to your local machine and install the dependencies:
 
 ```bash
-git clone git@github.com:rwmsousa/sass-boilerplate.git
-cd sass-boilerplate
+git clone git@github.com:rwmsousa/boilerplate-next-sass.git
+cd boilerplate-next-sass
 npm install
 ```
 
 ## Build
 
-Para construir o projeto, execute o seguinte comando:
+To build the project, run the following command:
 
 ```bash
 make build
@@ -58,50 +56,50 @@ make build
 make run
 ```
 
-Acesse: http://localhost:3000
+Access: http://localhost:3000
 
-## Documentação
+## Documentation
 
-Para mais informações sobre os diferentes aspectos do projeto, consulte os seguintes READMEs:
+For more information on the different aspects of the project, see the following READMEs:
 
-[Abstracts](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/abstracts/README.md)
+[Abstracts](https://github.com/rwmsousa/boilerplate-next-sass/blob/master/stylesheets/abstracts/README.md)
 
-[Base](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/base/README.md)
+[Base](https://github.com/rwmsousa/boilerplate-next-sass/blob/master/stylesheets/base/README.md)
 
-[Components](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/components/README.md)
+[Components](https://github.com/rwmsousa/boilerplate-next-sass/blob/master/stylesheets/components/README.md)
 
-[Layout](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/layout/README.md)
+[Layout](https://github.com/rwmsousa/boilerplate-next-sass/blob/master/stylesheets/layout/README.md)
 
-[Pages](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/pages/README.md)
+[Pages](https://github.com/rwmsousa/boilerplate-next-sass/blob/master/stylesheets/pages/README.md)
 
-[Themes](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/themes/README.md)
+[Themes](https://github.com/rwmsousa/boilerplate-next-sass/blob/master/stylesheets/themes/README.md)
 
-[Vendors](https://github.com/rwmsousa/sass-boilerplate/blob/master/stylesheets/vendors/README.md)
+[Vendors](https://github.com/rwmsousa/boilerplate-next-sass/blob/master/stylesheets/vendors/README.md)
 
-## Contribuição
+## Contribution
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-Contribuições são sempre bem-vindas! Se você tem uma melhoria ou correção, sinta-se à vontade para fazer um fork do repositório e enviar um pull request. Se você tem alguma dúvida ou sugestão, pode abrir uma issue.
+Contributions are always welcome! If you have an improvement or correction, feel free to fork the repository and submit a pull request. If you have any questions or suggestions, you can open an issue.
 
-## Licença
+## License
 
 Copyright (c) 2023 - [Ricardo Sousa](https://github.com/rwmsousa)
 
-É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia
-deste software e dos arquivos de documentação associados (o "Software"), para lidar
-no Software sem restrição, incluindo, sem limitação, os direitos
-para usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender
-cópias do Software, e permitir que as pessoas a quem o Software é
-fornecido o façam, sujeito às seguintes condições:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas
-cópias ou partes substanciais do Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
-IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO,
-ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO E NÃO VIOLAÇÃO. EM NENHUMA CIRCUNSTÂNCIA
-OS AUTORES OU DETENTORES DOS DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRA
-RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, DELITO OU DE OUTRA FORMA, DECORRENTE DE,
-FORA DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO
-PROGRAMAS.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
