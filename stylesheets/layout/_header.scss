@@ -1,13 +1,15 @@
+@import '../base/colors';
+
+// Header
 .header {
-    background-color: #3c3c3c;
-    color: #fff;
-    padding: 1.25rem; // 20px
+    background-color: $color-header-background;
+    color: $color-header-text;
+    padding: 1rem;
     text-align: center;
-    margin-bottom: 1.25rem; // 20px
 }
 
 .header a {
-    color: #d1703d;
+    color: $color-header-link;
     text-decoration: none;
 }
 

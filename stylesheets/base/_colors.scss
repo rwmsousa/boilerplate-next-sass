@@ -1,10 +1,14 @@
-/* Cores */
+/* Color variables */
+$color-primary: #3498db;
+$color-secondary: #2ecc71;
+$color-accent: #e74c3c;
+$color-body: #2c3e50;
+$color-title: #34495e;
+$color-highlight: #f1c40f;
+
 $color-text: #525252;
 $color-link: #00bf99c4;
-$color-title: #525252;
-$color-highlight: #00bf998a;
 $color-button: #00bf98;
 $color-icon: #00bf98;
 $color-header: #00bf998a;
-$color-body: #e2e2e296;
 $color-footer: darken($color-header, 15%);

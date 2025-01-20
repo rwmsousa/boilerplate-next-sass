@@ -1,13 +1,29 @@
+@import '../base/colors';
+
+// Home Page
+.home {
+    background-color: $color-home-background;
+    color: $color-home-text;
+    padding: 2rem;
+    text-align: center;
+}
+
 // styles for specific elements or sections on the home page
 
 .home-title {
-    font-size: 2em;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
     color: #3c3c3c;
 }
 
 .home-description {
     font-size: 1.2em;
     color: #666;
+}
+
+.home-content {
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 
 .featured-posts {

@@ -1,73 +1,81 @@
 # Pages 📄
 
-Bem-vindo à Biblioteca Mágica da pasta "pages"! Aqui, cada página do seu livro de estilos conta uma história única. Prepare-se para personalizar e dar vida às suas páginas com esses feitiços incríveis! 📖✨
+Welcome to the "pages" folder! This is where the styles for individual pages of your project are defined. Get ready to create unique and visually appealing pages! 🌟
 
-## O que são esses feitiços mágicos?
+## What are these magical files?
 
--   **\_about.scss**: O capítulo que conta a história do seu projeto, dando aos visitantes uma visão íntima do que você é. 📜🔮
+-   **\_about.scss**: Defines the styles for the About page, making it informative and engaging. ℹ️
 
--   **\_contact.scss**: A página de comunicação, onde os visitantes podem enviar suas corujas mágicas ou, mais realisticamente, suas mensagens. 💌🦉
+-   **\_contact.scss**: Contains styles for the Contact page, ensuring it is user-friendly and accessible. 📞
 
--   **\_home.scss**: A página principal do seu livro de estilos, onde a jornada mágica começa. ✨🏠
+-   **\_home.scss**: Adds styles for the Home page, creating a welcoming and attractive landing page. 🏠
 
--   **\_slug.scss**: A página misteriosa que lida com URLs personalizadas e captura a essência única de cada página. 🐌📌
+-   **\_slug.scss**: Defines the styles for dynamic pages, allowing for flexible and customizable content. 🔄
 
-## Como Usar Esses Feitiços?
+## How to Use These Powers?
 
-Personalize essas páginas mágicas para contar a história encantadora do seu projeto!
+Customize these magical files to create unique and visually appealing pages for your project!
 
-### 📜 `_about.scss`
+### ℹ️ `_about.scss`
 
 ```scss
-// Personalize a narrativa do capítulo "Sobre"
-.about-page {
-    font-size: 1.5em; // Escolha um tamanho de fonte que cativa
-    color: #2ecc71; // Adicione uma cor que conte uma história aconchegante
+// Define the styles for the About page
+.about {
+    background-color: $color-about-background;
+    color: $color-about-text;
+    padding: 2rem;
+    text-align: center;
 }
 ```
 
-### 💌 `_contact.scss`
+### 📞 `_contact.scss`
 
 ```scss
-// Estilize a página de comunicação
-.contact-page {
-    padding: 40px; // Adicione espaço para os visitantes se expressarem
-    background-color: #3498db; // Escolha uma cor vibrante para incentivar a comunicação
+// Define the styles for the Contact page
+.contact {
+    background-color: $color-contact-background;
+    color: $color-contact-text;
+    padding: 2rem;
+    text-align: center;
 }
 ```
 
-### ✨ `_home.scss`
+### 🏠 `_home.scss`
 
 ```scss
-// Deixe a página principal brilhar com o toque de uma varinha
-.home-page {
-    background-image: url('path/to/magical-background.jpg'); // Adicione uma imagem que inicie a jornada
-    color: #ffffff; // Faça o texto brilhar na escuridão
+// Define the styles for the Home page
+.home {
+    background-color: $color-home-background;
+    color: $color-home-text;
+    padding: 2rem;
+    text-align: center;
 }
 ```
 
-### 🐌 `_slug.scss`
+### 🔄 `_slug.scss`
 
 ```scss
-// Estilize a página misteriosa das URLs personalizadas
-.slug-page {
-    font-style: italic; // Adicione um toque de mistério à fonte
-    color: #8e44ad; // Escolha uma cor única para capturar a essência única de cada URL
+// Define the styles for dynamic pages
+.slug {
+    background-color: $color-slug-background;
+    color: $color-slug-text;
+    padding: 2rem;
+    text-align: center;
 }
 ```
 
-## Ativando Esses Feitiços
+## Activating Your Powers
 
-Prepare-se para a magia acontecer! Adicione o seguinte trecho no seu arquivo `main.scss`:
+Now, it's time to summon these magical powers into your project! Add the following snippet to your `main.scss` file:
 
 ```scss
-// Importe os feitiços das páginas mágicas
-@import 'pages/about';
-@import 'pages/contact';
-@import 'pages/home';
-@import 'pages/slug';
+// Import the magical spells from the "pages" folder
+@import 'pages/_about';
+@import 'pages/_contact';
+@import 'pages/_home';
+@import 'pages/_slug';
 
-// Suas páginas estão prontas para contar histórias encantadoras! 📚✨
+// Now, let the magic begin! ✨🚀
 ```
 
-Agora, cada página do seu projeto tem seu próprio toque mágico, pronto para envolver os visitantes em uma jornada incrível! 🌟🚀
+And voilà! Your project is now equipped with the fundamental powers to create an incredible visual spectacle! 🎉🔥

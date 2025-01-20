@@ -1,3 +1,5 @@
+@import '../base/colors';
+
 // components/_form.scss
 .form {
     width: 100%;
@@ -5,6 +7,42 @@
     padding: 0.625rem; // 10px
     border: 0.0625rem solid #ccc; // 1px
     border-radius: 0.3125rem; // 5px
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.form-input:focus {
+    border-color: $primary-color;
+    outline: none;
+}
+
+.form-button {
+    padding: 0.75rem;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: darken($primary-color, 10%);
 }
 
 .input {

@@ -1,33 +1,33 @@
 # Base 🎨
 
-Bem-vindo ao coração do seu estilo, a pasta "base"! Aqui é onde os elementos essenciais ganham vida e onde suas escolhas de estilo são definidas. Prepare-se para mergulhar no mundo dos estilos fundamentais que farão o seu projeto brilhar! ✨
+Welcome to the heart of your style, the "base" folder! This is where essential elements come to life and where your style choices are defined. Get ready to dive into the world of fundamental styles that will make your project shine! ✨
 
-## O que são esses arquivos mágicos?
+## What are these magical files?
 
--   **\_breakpoints.scss**: Controla a magia de como seu layout se ajusta em diferentes tamanhos de tela. 📱💻
+-   **\_breakpoints.scss**: Controls the magic of how your layout adjusts to different screen sizes. 📱💻
 
--   **\_colors.scss**: Aqui estão as poções mágicas que definem as cores do seu projeto. Escolha sabiamente, oh grande Mago das Cores! 🌈
+-   **\_colors.scss**: Here are the magical potions that define the colors of your project. Choose wisely, oh great Color Wizard! 🌈
 
--   **\_effects.scss**: Adiciona truques e transições que fazem seus elementos dançarem e brilharem na tela. ✨💃
+-   **\_effects.scss**: Adds tricks and transitions that make your elements dance and shine on the screen. ✨💃
 
--   **\_fonts.scss**: Invoca os poderes das fontes para dar ao seu texto uma personalidade única. 🖋️📜
+-   **\_fonts.scss**: Invokes the powers of fonts to give your text a unique personality. 🖋️📜
 
--   **\_helpers.scss**: São os assistentes leais que ajudam a simplificar e organizar seu código. 🧙‍♂️🤝
+-   **\_helpers.scss**: They are the loyal assistants that help simplify and organize your code. 🧙‍♂️🤝
 
--   **\_reset.scss**: Limpa a bagunça mágica dos estilos padrão dos navegadores para começar com uma tela em branco. 🧹🔮
+-   **\_reset.scss**: Cleans up the magical mess of default browser styles to start with a blank canvas. 🧹🔮
 
--   **\_spacings.scss**: Define as distâncias entre os elementos, proporcionando equilíbrio ao seu reino de estilos. 📏🧰
+-   **\_spacings.scss**: Defines the distances between elements, providing balance to your style kingdom. 📏🧰
 
--   **\_zindex.scss**: Classifica seus elementos em camadas, garantindo que cada um tenha seu lugar no palco. 🎭🔍
+-   **\_zindex.scss**: Classifies your elements in layers, ensuring each one has its place on the stage. 🎭🔍
 
-## Como Usar Esses Poderes?
+## How to Use These Powers?
 
-Prepare-se para personalizar esses arquivos mágicos e deixar sua marca no mundo dos estilos!
+Get ready to customize these magical files and leave your mark on the world of styles!
 
 ### 🌈 `_colors.scss`
 
 ```scss
-// Escolha as cores que representam a identidade do seu projeto
+// Choose the colors that represent the identity of your project
 $primary-color: #3498db;
 $secondary-color: #2ecc71;
 ```
@@ -35,7 +35,7 @@ $secondary-color: #2ecc71;
 ### 📱 `_breakpoints.scss`
 
 ```scss
-// Defina pontos de quebra para tornar seu layout responsivo
+// Define breakpoints to make your layout responsive
 $mobile: 480px;
 $tablet: 768px;
 $desktop: 1024px;
@@ -44,7 +44,7 @@ $desktop: 1024px;
 ### ✨ `_effects.scss`
 
 ```scss
-// Adicione transições e efeitos para dar vida ao seu projeto
+// Add transitions and effects to bring your project to life
 .card {
     transition: transform 0.3s ease-in-out;
     &:hover {
@@ -56,7 +56,7 @@ $desktop: 1024px;
 ### 🖋️ `_fonts.scss`
 
 ```scss
-// Escolha as fontes que melhor contam a história do seu projeto
+// Choose the fonts that best tell the story of your project
 $body-font: 'Roboto', sans-serif;
 $heading-font: 'Montserrat', sans-serif;
 ```
@@ -64,7 +64,7 @@ $heading-font: 'Montserrat', sans-serif;
 ### 🧙‍♂️ `_helpers.scss`
 
 ```scss
-// Use mixins e funções auxiliares para simplificar seu código
+// Use mixins and helper functions to simplify your code
 @mixin center-element {
     position: absolute;
     top: 50%;
@@ -76,7 +76,7 @@ $heading-font: 'Montserrat', sans-serif;
 ### 🧹 `_reset.scss`
 
 ```scss
-// Limpe a bagunça padrão dos navegadores
+// Clean up the default browser mess
 * {
     margin: 0;
     padding: 0;
@@ -87,24 +87,24 @@ $heading-font: 'Montserrat', sans-serif;
 ### 📏 `_spacings.scss`
 
 ```scss
-// Defina espaçamentos para criar equilíbrio no seu layout
+// Define spacings to create balance in your layout
 $spacing-unit: 16px;
 ```
 
 ### 🎭 `_zindex.scss`
 
 ```scss
-// Classifique seus elementos em camadas
+// Classify your elements in layers
 $z-index-header: 1000;
 $z-index-modal: 2000;
 ```
 
-## Ativando Seus Poderes
+## Activating Your Powers
 
-Agora, é hora de convocar esses poderes mágicos para o seu projeto! Adicione o seguinte trecho no seu arquivo `main.scss`:
+Now, it's time to summon these magical powers into your project! Add the following snippet to your `main.scss` file:
 
 ```scss
-// Importe os feitiços mágicos da pasta "base"
+// Import the magical spells from the "base" folder
 @import 'base/_breakpoints';
 @import 'base/_colors';
 @import 'base/_effects';
@@ -114,7 +114,7 @@ Agora, é hora de convocar esses poderes mágicos para o seu projeto! Adicione o
 @import 'base/_spacings';
 @import 'base/_zindex';
 
-// Agora, deixe a mágica começar! ✨🚀
+// Now, let the magic begin! ✨🚀
 ```
 
-E voilà! Seu projeto agora está equipado com os poderes fundamentais para criar um espetáculo visual incrível! 🎉🔥
+And voilà! Your project is now equipped with the fundamental powers to create an incredible visual spectacle! 🎉🔥

@@ -1,8 +1,21 @@
-// layout/_grid.scss
+@import '../base/colors';
+
+// Grid
 .grid {
     display: grid;
+    gap: 1rem;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem; // 20px
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .grid__item {

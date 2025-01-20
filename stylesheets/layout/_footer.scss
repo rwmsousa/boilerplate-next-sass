@@ -1,13 +1,15 @@
+@import '../base/colors';
+
+// Footer
 .footer {
-    background-color: #1d1919;
-    color: #fff;
-    padding: 1.25rem; // 20px
+    background-color: $color-footer-background;
+    color: $color-footer-text;
+    padding: 1rem;
     text-align: center;
-    margin-top: 1.25rem; // 20px
 }
 
 .footer a {
-    color: #d1703d;
+    color: $color-footer-link;
     text-decoration: none;
 }
 

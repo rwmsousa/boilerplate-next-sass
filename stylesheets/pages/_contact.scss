@@ -1,16 +1,50 @@
-// pages/_contact.scss
+@import '../base/colors';
+
+// Contact Page
 .contact {
-    background-color: #fff;
-    color: #333;
-    padding: 1.25rem; // 20px
+    background-color: $color-contact-background;
+    color: $color-contact-text;
+    padding: 2rem;
+    text-align: center;
 }
 
-.contact h1 {
-    font-size: 1.5rem; // 24px
-    margin-bottom: 0.625rem; // 10px
+.contact-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.contact p {
-    font-size: 1rem; // 16px
-    line-height: 1.6;
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.contact-form-button {
+    padding: 0.75rem;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-button:hover {
+    background-color: darken($primary-color, 10%);
 }

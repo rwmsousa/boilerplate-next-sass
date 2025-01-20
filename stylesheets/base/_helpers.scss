@@ -1,4 +1,4 @@
-/* Limpar floats */
+/* Clear floats */
 .clearfix::after {
     clear: both;
     content: '';
@@ -6,10 +6,10 @@
 }
 
 /**
-  * Principais contêineres de conteúdo
-  * 1. Faça o contêiner com largura total e largura máxima
-  * 2. Centralize-o na janela de visualização
-  * 3. Deixe algum espaço nas bordas, especialmente valioso em telas pequenas
+  * Main content containers
+  * 1. Make the container full width and max width
+  * 2. Center it in the viewport
+  * 3. Leave some space on the edges, especially valuable on small screens
   */
 .container {
     max-width: 100%;
@@ -27,9 +27,9 @@
 }
 
 /**
- * Ocultar texto enquanto o torna legível para leitores de tela
- * 1. Necessário em navegadores baseados em WebKit por causa de um bug de implementação;
- *    Veja: https://code.google.com/p/chromium/issues/detail?id=457146
+ * Hide text while making it readable for screen readers
+ * 1. Required in WebKit-based browsers due to an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
  */
 .hide-text {
     overflow: hidden;
@@ -40,7 +40,7 @@
 }
 
 /**
-  * Oculta o elemento enquanto o torna legível para leitores de tela
+  * Hides the element while making it readable for screen readers
   * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
   */
 .visually-hidden {
@@ -54,7 +54,7 @@
     width: 0.0625rem; // 1px
 }
 
-/* Exibição em tela inteira */
+/* Full screen display */
 .full-screen {
     width: 100vw;
     height: 100vh;

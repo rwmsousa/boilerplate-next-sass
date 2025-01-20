@@ -1,28 +1,31 @@
-// components/_dropdown.scss
+@import '../base/colors';
+
+// Dropdown
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown__content {
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0px 0.5rem 1rem 0px rgba(0, 0, 0, 0.2); // 8px 16px
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-.dropdown:hover .dropdown__content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
-.dropdown__item {
+.dropdown-item {
     color: black;
-    padding: 0.75rem 1rem; // 12px 16px
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown__item:hover {
+.dropdown-item:hover {
     background-color: #f1f1f1;
 }

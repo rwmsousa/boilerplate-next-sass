@@ -1,9 +1,26 @@
-// components/_cover.scss
+@import '../base/colors';
+
+// Cover
 .cover {
     position: relative;
-    height: 18.75rem; // 300px
+    width: 100%;
+    height: 100vh;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.cover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cover__caption {

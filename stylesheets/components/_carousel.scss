@@ -1,7 +1,32 @@
+@import '../base/colors';
+
 // components/_carousel.scss
+// Carousel
 .carousel {
-    width: 100%;
+    display: flex;
     overflow: hidden;
+    position: relative;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5rem;
+    cursor: pointer;
 }
 
 .carousel img {

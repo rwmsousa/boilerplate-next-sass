@@ -1,77 +1,79 @@
-# Layout 🏰
+# Layout 🗺️
 
-Bem-vindo à Sala do Trono da pasta "layout"! Aqui, os elementos se alinham para criar o reino visual do seu projeto. Prepare-se para moldar o layout do seu mundo com esses poderosos arquivos! 🌐✨
+Welcome to the "layout" folder! This is where the structure and layout of your project come to life. Get ready to create a well-organized and visually appealing layout! 🏗️
 
-## O que são esses elementos mágicos?
+## What are these magical files?
 
--   **\_footer.scss**: A fundação que sustenta seu reino, mantendo tudo em equilíbrio. 🦶🏽🏰
+-   **\_header.scss**: Defines the styles for the header, making it stand out and be functional. 🏷️
 
--   **\_grid.scss**: A grade encantada que organiza os elementos do seu projeto, garantindo uma disposição perfeita. 📏📐
+-   **\_sidebar.scss**: Contains styles for the sidebar, providing easy navigation. 📚
 
--   **\_header.scss**: A coroa brilhante do seu projeto, onde a realeza das informações é exibida. 👑📜
+-   **\_footer.scss**: Adds styles for the footer, ensuring it is informative and visually appealing. 📝
 
--   **\_sidebar.scss**: O confidente leal, oferecendo informações adicionais e mantendo o equilíbrio do reino. 🤝📖
+-   **\_grid.scss**: Defines the grid system, allowing you to create responsive layouts. 📐
 
-## Como Usar Esses Poderes?
+## How to Use These Powers?
 
-Personalize esses elementos mágicos para criar um reino visual que conte a história do seu projeto!
+Customize these magical files to create a unique and well-structured layout for your project!
 
-### 🦶🏽 `_footer.scss`
+### 🏷️ `_header.scss`
 
 ```scss
-// Estilize o alicerce do seu reino
-.kingdom-footer {
-    background-color: #f8f9fa; // Escolha uma cor sólida
-    padding: 20px; // Adicione espaço para sustentar o reino
+// Define the styles for the header
+.header {
+    background-color: $color-header-background;
+    color: $color-header-text;
+    padding: 1rem;
+    text-align: center;
 }
 ```
 
-### 📏 `_grid.scss`
+### 📚 `_sidebar.scss`
 
 ```scss
-// Utilize a grade mágica para organizar seu reino
-.kingdom-content {
+// Define the styles for the sidebar
+.sidebar {
+    background-color: $color-sidebar-background;
+    color: $color-sidebar-text;
+    padding: 1rem;
+    width: 250px;
+}
+```
+
+### 📝 `_footer.scss`
+
+```scss
+// Define the styles for the footer
+.footer {
+    background-color: $color-footer-background;
+    color: $color-footer-text;
+    padding: 1rem;
+    text-align: center;
+}
+```
+
+### 📐 `_grid.scss`
+
+```scss
+// Define the grid system
+.grid {
     display: grid;
-    grid-template-columns: repeat(
-        3,
-        1fr
-    ); // Divida o reino em três partes iguais
-    gap: 20px; // Adicione espaçamento entre os elementos
+    gap: 1rem;
 }
 ```
 
-### 👑 `_header.scss`
+## Activating Your Powers
+
+Now, it's time to summon these magical powers into your project! Add the following snippet to your `main.scss` file:
 
 ```scss
-// Dê brilho à coroa do seu projeto
-.kingdom-header {
-    font-size: 2em; // Aumente o tamanho para um toque majestoso
-    color: #3498db; // Escolha uma cor real
-}
+// Import the magical spells from the "layout" folder
+@import 'layout/_header';
+@import 'layout/_sidebar';
+@import 'layout/_footer';
+@import 'layout/_grid';
+
+// Now, let the magic begin! ✨🚀
 ```
 
-### 🤝 `_sidebar.scss`
-
-```scss
-// Confie no confidente leal para fornecer informações adicionais
-.kingdom-sidebar {
-    width: 25%; // Ajuste a largura para equilibrar o reino
-    background-color: #ecf0f1; // Escolha uma cor complementar
-}
-```
-
-## Ativando Esses Poderes
-
-Prepare-se para a coroação do seu projeto! Adicione o seguinte trecho no seu arquivo `main.scss`:
-
-```scss
-// Importe os elementos mágicos da pasta "layout"
-@import 'layout/footer';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/sidebar';
-
-// Seu reino visual está pronto para brilhar! ✨👑
-```
-
-Agora, seu projeto está equipado com os elementos mágicos necessários para criar um reino visual digno de admiração! 🚀🌟
+And voilà! Your project is now equipped with the fundamental powers to create an incredible visual spectacle! 🎉🔥

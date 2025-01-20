@@ -1,16 +1,19 @@
-// pages/_slug.scss
+@import '../base/colors';
+
+// Slug Page
 .slug {
-    background-color: #fff;
-    color: #333;
-    padding: 1.25rem; // 20px
+    background-color: $color-slug-background;
+    color: $color-slug-text;
+    padding: 2rem;
+    text-align: center;
 }
 
-.slug h1 {
-    font-size: 1.5rem; // 24px
-    margin-bottom: 0.625rem; // 10px
+.slug-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.slug p {
-    font-size: 1rem; // 16px
-    line-height: 1.6;
+.slug-content {
+    font-size: 1rem;
+    line-height: 1.5;
 }
