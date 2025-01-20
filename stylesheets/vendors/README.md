@@ -1,41 +1,31 @@
-# Vendors 🛒
+# Vendors 🛠️
 
-Bem-vindo à Feira Mágica na pasta "vendors"! Aqui é onde você encontra as joias da coroa, os artefatos valiosos que adicionam poderes extraordinários ao seu projeto. Prepare-se para explorar e integrar os tesouros da comunidade nesta jornada mágica! 💎✨
+Welcome to the "vendors" folder! This is where you can include third-party libraries and frameworks to enhance your project. Get ready to integrate powerful tools and resources! 🚀
 
-## O que são esses tesouros mágicos?
+## What are these magical files?
 
--   **bootstrap.scss**: A gema brilhante do mundo do CSS, o Bootstrap! Uma biblioteca poderosa que acelera a criação de interfaces encantadoras. 🌐🔧
+-   **\_bootstrap.scss**: Imports Bootstrap styles, providing a robust and responsive framework. 📦
 
-## Como Usar Esses Tesouros?
+## How to Use These Powers?
 
-Integre esses tesouros mágicos em seu projeto para acelerar o desenvolvimento e adicionar funcionalidades extraordinárias!
+Customize these magical files to integrate third-party libraries and frameworks into your project!
 
-### 🌐 `_bootstrap.scss`
-
-```scss
-// Importa as variáveis Bootstrap para personalização
-@import '~bootstrap/scss/functions';
-@import '~bootstrap/scss/variables';
-
-// Qualquer customização adicional para o Bootstrap pode ser adicionada abaixo desta linha
-
-// Exemplo de customização de um componente específico (botão, por exemplo)
-.custom-btn {
-    @include button-variant($primary); // Usa a cor primária definida acima
-    // Adiciona estilos adicionais específicos do seu projeto
-    font-weight: bold;
-}
-```
-
-## Ativando Esses Tesouros
-
-Visite a Feira Mágica e adquira seus tesouros! Adicione o seguinte trecho no seu arquivo `main.scss`:
+### 📦 `_bootstrap.scss`
 
 ```scss
-// Importe os tesouros da pasta "vendors"
-@import 'vendors/bootstrap';
-
-// Seu projeto agora brilha com os poderes do Bootstrap! ✨🚀
+// Import Bootstrap styles
+@import '~bootstrap/scss/bootstrap';
 ```
 
-Agora, seu projeto está equipado com as gemas do Bootstrap, prontas para elevar sua interface a novas alturas! 🏰🎉
+## Activating Your Powers
+
+Now, it's time to summon these magical powers into your project! Add the following snippet to your `main.scss` file:
+
+```scss
+// Import the magical spells from the "vendors" folder
+@import 'vendors/_bootstrap';
+
+// Now, let the magic begin! ✨🚀
+```
+
+And voilà! Your project is now equipped with the fundamental powers to integrate third-party tools and resources! 🎉🔥

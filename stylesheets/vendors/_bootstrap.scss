@@ -1,21 +1,20 @@
-// Exemplo de conteúdo do arquivo 'vendors/bootstrap.scss'
+// Import Bootstrap styles
+@import '~bootstrap/scss/bootstrap';
 
-// Importa as variáveis Bootstrap para personalização
-// @import '~bootstrap/scss/functions';
-// @import '~bootstrap/scss/variables';
+// Custom Bootstrap overrides and additions
 
-// Sobrescreve as variáveis conforme necessário
+// Override Bootstrap variables as needed
 $body-bg: #f8f9fa;
 $text-color: #343a40;
 $primary: #007bff;
 
-// Qualquer customização adicional para o Bootstrap pode ser adicionada abaixo desta linha
+// Any additional customizations for Bootstrap can be added below this line
 
-// Exemplo de customização de um componente específico (botão, por exemplo)
+// Example customization of a specific component (button, for example)
 // .custom-btn {
-//   @include button-variant($primary); // Usa a cor primária definida acima
-//   // Adiciona estilos adicionais específicos do seu projeto
+//   @include button-variant($primary); // Uses the primary color defined above
+//   // Add additional styles specific to your project
 //   font-weight: bold;
 // }
 
-// Outras customizações de estilos específicos do seu projeto podem seguir aqui
+// Other custom style customizations for your project can follow here
