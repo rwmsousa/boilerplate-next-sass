@@ -1,8 +1,8 @@
 FROM node:18-alpine
-RUN mkdir -p /home/sass-boilerplate
-COPY . ./sass-boilerplate
+RUN mkdir -p /home/boilerplate-next-sass
+COPY . ./boilerplate-next-sass
 
-WORKDIR /sass-boilerplate
+WORKDIR /boilerplate-next-sass
 
 RUN npm install
 # EXPOSE 3000

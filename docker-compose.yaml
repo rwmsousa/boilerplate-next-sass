@@ -7,11 +7,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: sass-boilerplate
-    image: sass-boilerplate
+    container_name: boilerplate-next-sass
+    image: boilerplate-next-sass
     restart: always
     command: npm run dev
     volumes:
-      - ./:/sass-boilerplate
+      - ./:/boilerplate-next-sass
     ports:
       - 3000:3000
