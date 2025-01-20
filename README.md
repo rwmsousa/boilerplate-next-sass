@@ -22,8 +22,7 @@ Provides an architecture option with Sass and practical application in NextJS fo
 - [Commitlint](https://commitlint.js.org/#/) configuration
 - Pre-commit pipeline with Prettier and Eslint
 - Commit-msg pipeline with Commitlint
-- Pre-push pipeline with build and unit tests
-- CI/CD with workflow on [Github Actions](https://github.com/features/actions) with linter check, prettier check, and unit tests
+- CI/CD with workflow on [Github Actions](https://github.com/features/actions) with linter check, prettier check.
 - Automated versioning [semantic-release](https://semantic-release.gitbook.io/) - to be developed
 
 ## Prerequisites

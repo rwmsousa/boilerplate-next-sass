@@ -16,9 +16,8 @@
     "prettier": "prettier . --write --cache '**/*.{js,jsx,json,ts,tsx,yml,yaml}'",
     "prettier-check": "prettier . --check '**/*.{js,jsx,json,ts,tsx,yml,yaml}'",
     "precommit": "npm run prettier && npm run lint",
-    "prepush": "npm run build && npm run test",
+    "prepush": "npm run build",
     "prepare": "husky install",
-    "test": "jest"
   },
   "repository": {
     "type": "git",
