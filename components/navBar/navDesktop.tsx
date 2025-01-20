@@ -5,7 +5,7 @@ import style from './navDesktop.module.scss';
 const NavDesktop = () => (
   <nav className={ style.navDesktop }>
     <span>
-      { <Image src='/img/logo.webp' alt={ process.env.DOMAIN_NAME || 'Logo' } width={ 50 } height={ 50 } /> || <h1>{ process.env.DOMAIN_NAME || 'Logo' }</h1> }
+      { '/img/logo.webp'.length > 0 ? <Image src='/img/logo.webp' alt={ process.env.DOMAIN_NAME || 'Logo' } width={ 50 } height={ 50 } /> : <h1>{ process.env.DOMAIN_NAME || 'Logo' }</h1> }
     </span>
     <ul>
       { routes.map((route) => {

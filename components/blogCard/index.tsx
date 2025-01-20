@@ -28,7 +28,7 @@ const CardBlog: React.FC<CardBlogProps> = ({ post }) => (
             quality={ 100 }
             priority
           />
-          <figcaption>{ `Imagem: ${ post.title }` }
+          <figcaption>{ `Image: ${ post.title }` }
           </figcaption>
         </figure>
       </Link>
