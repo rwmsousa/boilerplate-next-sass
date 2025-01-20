@@ -1,47 +1,49 @@
-# Themes 🌈
+# Themes 🎨
 
-Bem-vindo ao Reino dos Temas na pasta "themes"! Aqui, você pode dar ao seu projeto diferentes personalidades, desde a majestade real até a simplicidade encantadora. Prepare-se para explorar e personalizar seus temas com os feitiços mágicos desta pasta! 🎨✨
+Welcome to the "themes" folder! This is where you can define different themes for your project. Get ready to create visually stunning and unique themes! 🌈
 
-## O que são esses reinos mágicos?
+## What are these magical files?
 
--   **\_admin.scss**: O reino real, onde o controle e a funcionalidade são a principal prioridade. 👑🛡️
+-   **\_admin.scss**: Defines the styles for the admin theme, making it functional and user-friendly. 🛠️
 
--   **\_default.scss**: O reino acolhedor, onde a simplicidade e a beleza são os guardiões da estética. 🏡🌺
+-   **\_default.scss**: Contains the default theme styles, providing a clean and professional look. ✨
 
-## Como Usar Esses Feitiços?
+## How to Use These Powers?
 
-Personalize esses reinos mágicos para dar uma atmosfera única ao seu projeto!
+Customize these magical files to create unique and visually appealing themes for your project!
 
-### 👑 `_admin.scss`
+### 🛠️ `_admin.scss`
 
 ```scss
-// Personalize o reino real com toques de majestade
-.admin-theme {
-    $primary-color: #3498db; // Defina uma cor real
-    $font-family: 'Poppins', sans-serif; // Escolha uma fonte real
+// Define the styles for the admin theme
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 ```
 
-### 🏡 `_default.scss`
+### ✨ `_default.scss`
 
 ```scss
-// Transforme seu reino acolhedor com simplicidade e beleza
-.default-theme {
-    $primary-color: #2ecc71; // Defina uma cor acolhedora
-    $font-family: 'Roboto', sans-serif; // Escolha uma fonte amigável
+// Define the styles for the default theme
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
 }
 ```
 
-## Ativando Esses Reinos
+## Activating Your Powers
 
-Escolha o reino que melhor se adapta à narrativa do seu projeto! Adicione o seguinte trecho no seu arquivo `main.scss`:
+Now, it's time to summon these magical powers into your project! Add the following snippet to your `main.scss` file:
 
 ```scss
-// Importe os feitiços dos reinos mágicos
-@import 'themes/admin';
-@import 'themes/default';
+// Import the magical spells from the "themes" folder
+@import 'themes/_admin';
+@import 'themes/_default';
 
-// Seu projeto agora é um reino de possibilidades! 🌟🚀
+// Now, let the magic begin! ✨🚀
 ```
 
-Agora, seu projeto pode mudar de pele com facilidade, adaptando-se a diferentes situações ou preferências. Que comece a transformação mágica! 🌈🎉
+And voilà! Your project is now equipped with the fundamental powers to create an incredible visual spectacle! 🎉🔥
