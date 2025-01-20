@@ -4,6 +4,6 @@ COPY . ./boilerplate-next-sass
 
 WORKDIR /boilerplate-next-sass
 
-RUN npm install
+RUN yarn
 # EXPOSE 3000
 CMD ["npm", "run", "dev"]

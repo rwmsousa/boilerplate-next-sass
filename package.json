@@ -15,9 +15,9 @@
     "lint-check": "eslint . --ext .js,.jsx,.ts,.tsx --cache",
     "prettier": "prettier . --write --cache '**/*.{js,jsx,json,ts,tsx,yml,yaml}'",
     "prettier-check": "prettier . --check '**/*.{js,jsx,json,ts,tsx,yml,yaml}'",
-    "precommit": "npm run prettier && npm run lint",
-    "prepush": "npm run build",
-    "prepare": "husky install",
+    "precommit": "yarn prettier && yarn lint",
+    "prepush": "yarn build",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",

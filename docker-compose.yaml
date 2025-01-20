@@ -10,7 +10,7 @@ services:
     container_name: boilerplate-next-sass
     image: boilerplate-next-sass
     restart: always
-    command: npm run dev
+    command: yarn dev
     volumes:
       - ./:/boilerplate-next-sass
     ports:

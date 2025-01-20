@@ -38,7 +38,7 @@ Clone the repository to your local machine and install the dependencies:
 ```bash
 git clone git@github.com:rwmsousa/boilerplate-next-sass.git
 cd boilerplate-next-sass
-npm install
+yarn
 ```
 
 ## Build
