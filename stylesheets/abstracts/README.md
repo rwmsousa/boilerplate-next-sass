@@ -1,75 +1,60 @@
-# Abstracts 🌈
+# Abstracts 📚
 
-Bem-vindo à pasta "abstracts"! 🚀 Aqui, estamos prestes a explorar o mundo mágico das personalizações Sass. ✨ Prepare-se para a jornada da sua vida!
+Welcome to the "abstracts" folder! This is where the core of your styles is defined, including variables, mixins, and functions. Get ready to dive into the foundational styles that will make your project shine! ✨
 
-## O que são "abstracts"?
+## What are these magical files?
 
-Os arquivos nesta pasta são como poções mágicas para seus estilos. Eles armazenam coisas incríveis como variáveis, funções, mixins e placeholders. Mas, espere, o que são essas coisas?
+-   **\_variables.scss**: Defines the variables that will be used throughout your project. 🎨
 
--   **Variáveis**: Guardam valores mágicos como cores e tamanhos, para que você possa mudar a aparência do seu site num piscar de olhos. 🎨
+-   **\_mixins.scss**: Contains reusable pieces of code to avoid repetition. 🔄
 
--   **Funções**: Transformam valores e realizam feitiços matemáticos para criar estilos dinâmicos. 🧙
+-   **\_functions.scss**: Defines functions to perform calculations and return values. 🧮
 
--   **Mixins**: São como receitas de bolo mágicas que você pode reutilizar para criar estilos consistentes e evitar repetição. 🍰
+## How to Use These Powers?
 
--   **Placeholders**: São como feitiços que podem ser invocados quando necessário, economizando espaço e mantendo seu código limpo. 🧹
-
-## Como Usar?
-
-Imagine-se como um feiticeiro estilista, pronto para encantar seu projeto! Aqui está um exemplo básico de como personalizar esses arquivos:
+Customize these magical files to leave your mark on the world of styles!
 
 ### 🎨 `_variables.scss`
 
 ```scss
-// Mude as cores para refletir a paleta do seu projeto
+// Define the variables that represent the identity of your project
 $primary-color: #3498db;
 $secondary-color: #2ecc71;
-$font-family: 'Roboto', sans-serif;
 ```
 
-### 🧙 `_functions.scss`
+### 🔄 `_mixins.scss`
 
 ```scss
-// Use funções para criar estilos dinâmicos
-@function em($pixels) {
-    @return $pixels / 16 + 0.25em; // Converte pixels para em
+// Use mixins to simplify your code
+@mixin center-element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 ```
 
-### 🍰 `_mixins.scss`
+### 🧮 `_functions.scss`
 
 ```scss
-// Crie mixins para estilos reutilizáveis
-@mixin button-styles {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+// Define functions to perform calculations
+@function calculate-rem($size) {
+    $rem-size: $size / 16px;
+    @return #{$rem-size}rem;
 }
 ```
 
-### 🧹 `_placeholders.scss`
+## Activating Your Powers
+
+Now, it's time to summon these magical powers into your project! Add the following snippet to your `main.scss` file:
 
 ```scss
-// Defina placeholders para serem usados quando necessário
-%flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+// Import the magical spells from the "abstracts" folder
+@import 'abstracts/_variables';
+@import 'abstracts/_mixins';
+@import 'abstracts/_functions';
+
+// Now, let the magic begin! ✨🚀
 ```
 
-## Ativando Suas Configurações
-
-Agora, como um verdadeiro mestre dos feitiços, você precisa garantir que essas personalizações mágicas sejam ativadas em seu projeto principal. Aqui está um exemplo no seu arquivo `main.scss`:
-
-```scss
-// Importe os feitiços mágicos da pasta "abstracts"
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
-
-// Agora, você está pronto para estilizar o seu mundo! 🌍✨
-```
-
-E voilà! 🎩💫 Seu projeto agora está repleto de personalizações mágicas que vão além da imaginação. Divirta-se estilizando! 🚀🎉
+And voilà! Your project is now equipped with the fundamental powers to create an incredible visual spectacle! 🎉🔥
