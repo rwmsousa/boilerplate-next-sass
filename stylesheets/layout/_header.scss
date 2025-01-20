@@ -2,14 +2,14 @@
 
 // Header
 .header {
-    background-color: $color-header-background;
-    color: $color-header-text;
+    background-color: $color-background;
+        color: $color-text;
     padding: 1rem;
     text-align: center;
 }
 
 .header a {
-    color: $color-header-link;
+    color: $color-link;
     text-decoration: none;
 }
 

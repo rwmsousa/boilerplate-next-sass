@@ -21,8 +21,8 @@ Customize these magical files to create a unique and well-structured layout for 
 ```scss
 // Define the styles for the header
 .header {
-    background-color: $color-header-background;
-    color: $color-header-text;
+    background-color: $color-background;
+    color: $color-text;
     padding: 1rem;
     text-align: center;
 }
@@ -33,8 +33,8 @@ Customize these magical files to create a unique and well-structured layout for 
 ```scss
 // Define the styles for the sidebar
 .sidebar {
-    background-color: $color-sidebar-background;
-    color: $color-sidebar-text;
+    background-color: $color-background;
+    color: $color-text;
     padding: 1rem;
     width: 250px;
 }
@@ -45,8 +45,8 @@ Customize these magical files to create a unique and well-structured layout for 
 ```scss
 // Define the styles for the footer
 .footer {
-    background-color: $color-footer-background;
-    color: $color-footer-text;
+    background-color: $color-background;
+    color: $color-text;
     padding: 1rem;
     text-align: center;
 }

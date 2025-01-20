@@ -121,7 +121,7 @@ Now, it's time to summon these magical powers into your project! Add the followi
 
 ```scss
 // Import the magical spells from the "components" folder
-@import 'components/_button';
+@import 'components/_buttons';
 @import 'components/_cards';
 @import 'components/_carousel';
 @import 'components/_cover';

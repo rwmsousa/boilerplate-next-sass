@@ -28,7 +28,7 @@ Get ready to customize these magical files and leave your mark on the world of s
 
 ```scss
 // Choose the colors that represent the identity of your project
-$primary-color: #3498db;
+$color-primary: #3498db;
 $secondary-color: #2ecc71;
 ```
 

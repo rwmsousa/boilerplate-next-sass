@@ -21,8 +21,8 @@ Customize these magical files to create unique and visually appealing pages for 
 ```scss
 // Define the styles for the About page
 .about {
-    background-color: $color-about-background;
-    color: $color-about-text;
+    background-color: $color-background;
+    color: $color-text;
     padding: 2rem;
     text-align: center;
 }
@@ -33,8 +33,8 @@ Customize these magical files to create unique and visually appealing pages for 
 ```scss
 // Define the styles for the Contact page
 .contact {
-    background-color: $color-contact-background;
-    color: $color-contact-text;
+    background-color: $color-background;
+    color: $color-text;
     padding: 2rem;
     text-align: center;
 }
@@ -45,8 +45,8 @@ Customize these magical files to create unique and visually appealing pages for 
 ```scss
 // Define the styles for the Home page
 .home {
-    background-color: $color-home-background;
-    color: $color-home-text;
+    background-color: $color-background;
+    color: $color-text;
     padding: 2rem;
     text-align: center;
 }
@@ -57,8 +57,8 @@ Customize these magical files to create unique and visually appealing pages for 
 ```scss
 // Define the styles for dynamic pages
 .slug {
-    background-color: $color-slug-background;
-    color: $color-slug-text;
+    background-color: $color-background;
+    color: $color-text;
     padding: 2rem;
     text-align: center;
 }

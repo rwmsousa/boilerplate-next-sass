@@ -27,13 +27,13 @@
 }
 
 .form-input:focus {
-    border-color: $primary-color;
+    border-color: $color-primary;
     outline: none;
 }
 
 .form-button {
     padding: 0.75rem;
-    background-color: $primary-color;
+    background-color: $color-primary;
     color: #fff;
     border: none;
     border-radius: 0.25rem;
@@ -42,7 +42,7 @@
 }
 
 .form-button:hover {
-    background-color: darken($primary-color, 10%);
+    background-color: darken($color-primary, 10%);
 }
 
 .input {

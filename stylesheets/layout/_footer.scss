@@ -2,14 +2,14 @@
 
 // Footer
 .footer {
-    background-color: $color-footer-background;
-    color: $color-footer-text;
+    background-color: $color-background;
+        color: $color-text;
     padding: 1rem;
     text-align: center;
 }
 
 .footer a {
-    color: $color-footer-link;
+    color: $color-link;
     text-decoration: none;
 }
 
