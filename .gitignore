@@ -8,3 +8,4 @@ dist
 .next
 .env
 .eslintcache
+yarn.lock

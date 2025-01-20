@@ -21,9 +21,11 @@
     "rules": {
         "@typescript-eslint/no-explicit-any": "error",
         "@typescript-eslint/no-empty-interface": "error",
-        "@typescript-eslint/no-shadow": [
-            "error"
-        ],
+        
+                "@typescript-eslint/no-shadow": [
+                    "error",
+                    { "hoist": "all" }
+                ],
         "no-empty-function": "off",
         "@typescript-eslint/no-empty-function": "error",
         "no-loop-func": "off",
